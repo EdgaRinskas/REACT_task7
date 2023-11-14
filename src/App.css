@@ -67,3 +67,33 @@ body {
   height: auto;
   display: block;
 }
+
+.about-us {
+  height: 100vh;
+}
+
+.about-us h1 {
+  text-align: center;
+  height: 5vh;
+  line-height: 5vh;
+}
+
+.about-us .img-about-us {
+  height: 95vh;
+  background-size: cover;
+}
+
+.about-us .text-cont {
+  height: 50vh;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.about-us .our-story {
+  max-width: 600px;
+  text-align: center;
+}
