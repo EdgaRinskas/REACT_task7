@@ -1,3 +1,5 @@
+/* App.css */
+
 body {
   margin: 0;
   padding: 0;
@@ -46,4 +48,22 @@ body {
 
 .main-footer {
   margin-top: auto;
+}
+
+/* Styles for Finished component */
+.finished {
+  width: 75%;
+  margin: 0 auto; /* Center the content */
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  gap: 10px; /* Adjust the gap as needed */
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
