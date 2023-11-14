@@ -8,6 +8,7 @@ import News from './pages/News';
 import Services from './pages/Services';
 import Finished from './pages/Finished';
 import Contacts from './pages/Contacts';
+import './App.css';
 
 const App = () => {
   return (
