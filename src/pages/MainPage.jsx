@@ -1,7 +1,7 @@
 // MainPage.jsx
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import backgroundImage from '../assets/background.jpg';
+import backgroundImage from '../assets/background.jpeg'; // Change to the correct file path
 
 const MainPage = () => {
   return (
@@ -17,7 +17,7 @@ const MainPage = () => {
           <NavLink to="/contacts" activeClassName="active">Contacts</NavLink>
         </div>
       </header>
-      <section className="hero-section" style={{ backgroundImage: `url(${backgroundImage})` }}>
+      <section className="hero-section" style={{ backgroundImage: `url(${backgroundImage})`, height: '100vh' }}>
         <div className="hero-content">
           <h2>Welcome to My Awesome Website</h2>
           <p>Discover amazing content and explore our diverse range of services and news articles.</p>
