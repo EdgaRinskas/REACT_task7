@@ -97,3 +97,29 @@ body {
   max-width: 600px;
   text-align: center;
 }
+.services {
+  padding: 20px;
+}
+
+.service-cards {
+  display: flex;
+  gap: 10px;
+}
+
+.card {
+  width: 25%;
+  height: 150px;
+  background-color: #f0f0f0; /* Light gray background color, adjust as needed */
+  display: flex;
+  flex-direction: column;
+}
+
+.card-text {
+  height: 50%;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.card-text p {
+  margin: 0;
+}
